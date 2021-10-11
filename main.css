@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+
+}
+
+.card1 {
+    width: 20%;
+    height: auto;
+    border-radius: 15px;
+    background-color: #FF0000;
+    margin: 7px;
+}
+
+.card2 {
+    width: 20%;
+    height: auto;
+    border-radius: 15px;
+    background-color: rgb(133, 18, 133);
+    margin: 7px;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+    /* margin-top: 10px; */
+    border-radius: 15px 15px 0 0;
+}
+
+.description {
+    padding: 13px 13px 8px 13px;
+    color: #ffffff;
+    font-family: Helvetica, sans-serif;
+    text-align: left;
+    /* position: relative; */
+    /* height: 70px; */
+}
+
+
+.description p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.description .promo {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #f8eeee;
+    font-weight: 100;
+}
+
+.description .cek {
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    background-color: white;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    /* height: auto; */
+}
+
+.description .cek a {
+    color: black;
+    padding: 10px;
+
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.description .kutip {
+    font-size: 10px;
+    text-align: right;
+    /* position: absolute; */
+    /* right: 15px;
+    bottom: 2px;
+    margin: 1px */
+}
